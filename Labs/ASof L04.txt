@@ -1,0 +1,11 @@
+Key-Value Store:
+- Partition Tolerance
+- Big Data
+- High availability
+- High performance
+- Scalability
+- Consistency
+- Cap Theorem:
+  - C: Consistency
+  - A: Availability
+  - P: Partitioning Tolerance

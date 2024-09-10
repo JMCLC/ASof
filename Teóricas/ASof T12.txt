@@ -1,0 +1,3 @@
+- Virtual Machine: In a layered style, a virtual machine sits at the top a layer to reduce the number of use cases where a layer is skipped
+- Callback: In a layered style, a top layer calls the bottom layer and awaits for a response from the bottom layer, "breaking the layered style" momentarily
+- Exceptions: Exceptions in layered style are caught in the layer above the one that threw the exception

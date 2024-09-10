@@ -1,0 +1,9 @@
+Problem (Qualities)				|		Solution
+
+Support 1 Milion Users					Implement Sharding (shared data between multiple databases)
+Is Available 99,999%					Multiple Servers
+Privacy of Information					Encripted data in the database, use hashing to decide the database to use
+Introduce Functionality Y in 3 Months			Our architecture wasnt the best for this implementing modules would resolve this
+Functionality X executes in < 5 min		
+
+	

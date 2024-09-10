@@ -1,0 +1,31 @@
+ Qualities  Tactics/Patterns/Frameworks
+    |            |
+    v            v
+Reasoning ---> View
+
+View Types:
+- Module: Name of Implementation
+- Component & Connector: Behaviour
+- Allocation:
+  - Allocate module to teams
+  - Allocate module to Files
+  - Allocate C&C to Hardware
+
+Module View:
+- Relations:
+  - Is part of
+  - Depends on
+  - Is a
+- Properties:
+  - Name
+  - Resposibility
+  - Visibility of interface
+  - Implementation information:
+    - Mapping to source code units
+    - Test Information
+    - Management Information
+    - Implementation Constraints
+- Objective:
+  - Construction
+  - Analysis
+  - Communication

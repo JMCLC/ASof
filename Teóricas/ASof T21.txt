@@ -1,0 +1,2 @@
+Managing Transactions with Saga
+  - Transactions go from ACID to ACD because they have no isolation

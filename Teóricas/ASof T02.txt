@@ -1,0 +1,32 @@
+Different types of structures for different types of stakeholders:
+- Module: Developers
+- C&C: Users, Product Owner
+- Allocation: Owner, Product Owner
+
+Thinking of Quizzes Tutor:
+- For normal users:
+  - Browser --> Quizzes Tutor Server --> Database
+       ^     ^			      ^
+    process  ^		 	  read/write
+	     ^
+  request/response: quizzes-tutor.tecnico.ulisboa.pt
+
+  - This is a Component-And-Connector View
+- For the devs:
+  - You add allocation structures:
+    - Laptop that englobes the browser
+    - Cloud that englobes the Server and Database
+    - Server twice that englobes the Server and Database separately
+    - Internet that connects the browser to the server
+    - GigDit that connects the server to the database
+  - Code View:
+    - Presentation Layer (Vuejs) --> Web Service Layer --> Transactional Structure Layer --> Buiseness Logic Layer (Java) --> Data Access Layer (GPA)
+                                  ^
+                             allows to use
+
+    - This last 4 modules being made in springboot
+    - This is a Module View
+  - Now to connect both views:
+    - Presentation Layer --> Browser
+    - Web Service Layer/Transactional Service Layer/Buiseness Logic Layer --> Quizzes Tutor Server
+    - Data Access Layer --> Database

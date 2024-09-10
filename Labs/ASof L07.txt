@@ -1,0 +1,20 @@
+Design a Chat System:
+- Purpose of Design: Chat System that supports one-to-one, group chats with less than a 100 people, online presence and message total order inside a channel
+- Functionalities:
+  - Send Message
+  - Receive Messages
+  - Notifications
+  - Group Management
+  - User Management
+- Qualities:
+  - Performance: A user sends a message and it is delivered to the online receivers in latency < 1 second in 90% of the times, 1 - 5 seconds in 5%, 5 - 10 seconds in 4%, and more than 10 seconds in 1% and troughput 60 bilion per day
+  - Availability:
+    - Chat system crashed and all messages are delivered with 0% message cost
+    - Network instability but message are received by the same order by all members
+  - Modifiability: The increase of messages sent should preserve persistance and be persistently stored
+- Constraint: Notification is bought
+- Rounds:
+  - Round 1:
+    - Purpose of design: Fully functional Chat system with availability and without scalability
+    - Iteration 1:
+    - Iteration 2: Client is overloaded

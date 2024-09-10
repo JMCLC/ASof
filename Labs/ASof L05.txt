@@ -1,0 +1,23 @@
+- Purpose of Design ==> Highly Available News Feed System
+- Primary Functionalities ==> Publishing Service, Retrieval News Feed, Notification
+- Quality Attributes ==> Performance Scenario (PS and RNF), Modifiability Scenario (Scalability) (Performance and Storage), Security Scenario (DNS, Authentication, Authorization)
+- Constraints ==>  Mobile App, Web aPP
+- Architectural Concerns
+
+Round 1:
+- Purpose of Design:
+  - Fully Functional System for Post and Retrieve with Security and Performance
+- Iteration 1:
+  - Functionalities: Post and Retrieve
+  - Performance Scenarios
+  - Mobile App and Web App
+- Iteration 2:
+  - Security Authentication
+
+Round 2:
+- Purpose of Design:
+  - Highly Scallable
+- Scenario:
+  - Modifiability Scenarios:
+    - Increase of Retrievals
+    - Increase of Post/Data

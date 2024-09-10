@@ -1,0 +1,8 @@
+Data-Access:
+- Policies:
+  - Acid Transactions
+  - Data Encryption
+  - Last Accessed
+  - x time consistency
+
+Publish-Subscribe:

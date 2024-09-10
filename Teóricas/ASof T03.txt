@@ -1,0 +1,52 @@
+Requirements:
+- Functional Requirements
+- Qualities:
+  - Performance
+  - Availability
+  - Modifiability
+  - Integrability
+
+Use case:
+- Functional Requirement
+- Documents Behaviour
+
+Parts of Qualities:
+- Stimulus (Event)
+- Stimulus Source (Actor)
+- Artifact (System)
+- Environment
+- Response
+- Response Measure (response latency)
+
+Availability:
+- Stimulus: Fault
+- Response: Notify
+- Tactic: Monitoring
+
+Performance:
+- Stimulus: Event
+- Response: Process Stimulus and generate response
+
+Modifiability:
+- Stimulus: Request for modification
+- Response: Implement Modification
+
+Deployment Pipeline: Dev -> Test -> Deploy -> Production
+Deployability:
+- Stimulus Source: Develop Team
+- Stimulus: Deploy a new element
+- Response: In Production
+- Response Measure: < 1 Hour
+- Tactic: Pipeline
+
+Energy Efficiency:
+- Stimulus: Request to conserve energy
+- Response: Reduce activity
+- Response Measure: -10%
+- Tactic: Resource Management
+
+Safety:
+- Stimulus: A Function returns the wrong value
+- Response: No Problem
+- Response Measure: Detected in 1ms
+- Tactic: Redundant Systems, Monitoring

@@ -1,0 +1,11 @@
+Microservices:
+- Pros:
+  - Small teams
+  - Independent Scalability
+  - FWE-Grained
+  - Remote connection (API)
+
+Service-Oriented Architecture:
+- Integration
+- Interoperability
+- Coarse-Grained

@@ -1,0 +1,14 @@
+- Quizzes Tutor: Extension of Springboot and GPA on the backend and extension of vuejs in the frontend
+
+DVD Catalog:
+- Keep catalog:
+  - New
+  - List
+- Track Borrowers
+- Search:
+  - Title
+  - Genre
+- Get info from:
+  - Amazon
+  - IMDB
+- Qualities

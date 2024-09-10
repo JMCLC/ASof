@@ -1,0 +1,31 @@
+Decompoosition Style:
+- Criteria:
+  - Achievement of certain quality attributes
+  - Build-versus-buy decisions
+  - Product line implementation
+  - Team allocation
+
+Data Model:
+- Qualifiers:
+  - Conceptual (Sketch)
+  - Logical (Database relational styles without normalization)
+  - Physical (Database relational styles with normalization) (Described when needed performance)
+- Entities (Any distinguishable object):
+  - Name
+  - Description
+  - List of data attributes
+  - Unique attribute (Primary key)
+  - Weak (bool) (Dependency)
+  - Constraints and Invariants
+  - Rules for permissions
+  - Number of instances and growth rate
+  - Attributes specific to the physical data model:
+    - List of attributes to be Indexed
+    - List of attributes to be encrypted or compressed
+    - View (bool) (should it become a view or a table)
+    - Materialized view (bool)
+    - List of database triggers
+- Types of relations:
+  - Relationship
+  - Generalization/Specialization
+  - Aggregation

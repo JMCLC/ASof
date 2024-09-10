@@ -1,0 +1,7 @@
+Crosscutting Concerns:
+- Communicating-Processes (concurrency):
+  - Filter = Process Thread
+  - Shared Memory
+  - Message Passing
+- Tiers:
+- Dynamic Creation and Destruction

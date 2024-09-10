@@ -1,0 +1,26 @@
+Performance:
+- Resource Usage Latency:
+  - Hierarchy:
+    - CPU Cache
+    - Memory
+    - SSD
+    - HDD
+    - Rack
+    - Data Center
+    - Intranet
+    - Internet
+  - As you go down in the hierarchy it should take 1 order of magnitude more to process the request, but it also becomes much cheaper
+- Concurrency:
+  - Pros:
+    - Multiple Processes using different disks reducing latency
+  - Cons:
+    - Cost of sync since it does not work linearly
+    - Hard to keep consistent
+- General Scenario:
+  - Stimulus: Event
+  - Environment (Imporant): Normal Operation/Overload/Peak Load
+  - Response: Processes
+  - Measure: Latency/Throughput/Gitter
+- Tactics:
+  - Control Demand
+  - Manage Resources

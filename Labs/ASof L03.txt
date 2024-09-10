@@ -1,0 +1,17 @@
+URL Shortener in Distributed Systems:
+- Requirements:
+  - Functionalities:
+    - URL Shortening
+    - URL Redirecting
+  - Qualities:
+    - Source: Browser or Human 
+    - Stimulus: URL shortnening  Periodic or URL Redirecting
+    - Artifact: System
+    - Environment: Normal or Peak Load
+    - Response: URL Shortened or Stored in a Database
+    - Measure: 1160 per second or 11600 per second
+    - Scalability: Persistent Space goes till 365 TB
+    
+- Trade-offs/Decisions:
+
+- Solutions:

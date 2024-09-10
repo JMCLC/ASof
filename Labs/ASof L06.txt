@@ -1,0 +1,40 @@
+Design a Notification Service:
+- Purpose of Design:
+  - Notification System
+  - Highly available and scalable
+  - Soft real-time
+- Primary Functionalities:
+  - Send Notifications
+  - Gathering Information
+- Constraints:
+  - Use a set of Third Party Services
+- Qualities:
+  - Availability: Notification System crashes and notifications are delivered at least once
+  - Modifiability:
+    - Add a new third party service in design time takes 1 month and is fully operational without introducing bugs in existing code
+    - Increase in the number of notifications sends and the performance is preserved
+    - Increase in the number of users is automatically supported
+  - Security:
+    - Unidentified client tries to send a notification but the notification is sent and the service is not disrupted
+    - DDOS Attack
+    - Impersonate
+  - Performance:
+    - Client App sends notification and it is received in latency 95% in < 1s, 3% in 1s < 3s, 1% in 3s < 1m, 1% > 1m
+- Rounds:
+  - Round 1:
+    - Purpose of design: The architecture for a fully operational system without scalability and availability
+    - Iteration 1:
+      - Primary Functionalities
+      - Add new Third Party
+    - Iteration 2:
+      - Performance
+    - Iteration 3:
+      - Security
+  - Round 2:
+    - Purpose of design: Add Scalability
+    - Iteration 1:
+      - Increase notification
+    - Iteration 2:
+      - Increase users
+     
+    

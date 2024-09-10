@@ -1,0 +1,19 @@
+In the project you should have a iterative design of the architecture
+Vertical Scaling:
+- Positives: Simpler Solution
+- Negatives: Limit, Cost
+
+Qualities:
+- Support Persistent Information
+- Medium Size of Database Instances
+- Complex Business Logic
+- World Size Number of possible clients
+- Server can chage address
+- Server address is human readable
+- Increase with the simultaneous number of clients
+- Save Server Deployment Cost
+- A lot of reads few writes
+- Availability:
+ - Server Crash
+ - Load Balancer Crash
+ - Database Crash

@@ -1,0 +1,7 @@
+- Round 2:
+  - Purpose of design: Support troughput for send message
+  - Iteration 1: Seperate Services
+  - Iteration 2: Multiple Copies of Computation for Chat Service
+  - Iteration 3: Multiple Copies of Computation for Chat Database
+  - Iteration 4: Revisit the second point of availability
+  - Iteration 5: Make Send Async

@@ -1,0 +1,6 @@
+Availability Tactics:
+- Detect Faults
+- Recover from Faults:
+  - Preparation and Repair
+  - Reintroduction
+- Prevent Faults

@@ -1,0 +1,20 @@
+Availability:
+- Fault-Tolerance
+- Dependability
+- Reliability
+
+Fault Proccess:
+- Results in Failure
+- Errors exist between the original fault and the failure
+
+Availability = MTBF / MTBF + MTTR
+- MTBF: Time between failures
+- MTTR: Time to repair
+
+
+Source  	  Stimulus     	Artifact	Environment	     Response		  Measure
+
+Power Fault	Server Crash	Server	      Normal Operation	  Continue Operation	0 Down Time
+Server Hardware	Server Crash	Server	      Normal Operation    Continue Operation 	0 Down Time
+Disk Failure	Server Crash	Server	      Normal Operation	  Stop			2 Hour Down Time
+	      

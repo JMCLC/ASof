@@ -1,0 +1,10 @@
+Component-And-Connector Styles:
+- Pipe and Filter:
+  - Concurrency
+  - Asynchronous
+- Client-Server:
+  - Request / Reply may have session
+  - For scalability, stateless servers are superior
+- Peer-to-Peer:
+  - Slowest
+  - Safest

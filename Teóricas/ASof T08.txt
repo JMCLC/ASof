@@ -1,0 +1,9 @@
+Security:
+- CIA (Confidentiality, Integrity, Availability)
+- General Scenario:
+  - Source: Unindentified User or Authorized Student or Database Authenticated Student or System Admin or Fénix Developer
+  - Stimulus (Attack): Tries to Invade Restricted Services or Tries to change grade or Injects SQL in a url or Change a grade in database or Write Script to Change Grade in the Database
+  - Artifact: Fénix or Fénix or MySQL Database or MySQL Database or MySQL Database
+  - Environment: Online or Online or Online or Offline/Online or Online
+  - Response: Deny/Inform the User/Log Source/IP of Request or Deny/Inform Teacher or No Changes on the Database or Detect/Recover or Detect/Recover
+  - Measure: No Service Invoked/Identify Actors/Authorize Actors or No Service Invoked/Identify Actors/Authorize Actors or Validate Input or Encrypt Database/Rollback or 
